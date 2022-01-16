@@ -5,7 +5,7 @@
 }
 
 body {
-	background-color: #242333;
+	background-color: #212121;
 	display: flex;
 	flex-direction: column;
 	color: #fff;
@@ -43,32 +43,20 @@ h1 {
 	margin-bottom: 30px;
 }
 .seat {
-	background-color: #444451;
-	height: 12px;
-	width: 15px;
-	margin: 3px;
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
+  background-color: #444451;
+  height: 12px;
+  width: 15px;
+  margin: 3px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .seat.selected {
-	background-color: #99edf5;
+  background-color: #6feaf6;
 }
 
 .seat.occupied {
-	opacity: 0.3;
-}
-
-.front {
-	background-color: rgb(151, 128, 23);
-}
-
-.center {
-	background-color: rgb(59, 50, 105);
-}
-
-.ends {
-	background-color: rgb(48, 117, 136);
+  background-color: #fff;
 }
 
 div.row:nth-child(3) {

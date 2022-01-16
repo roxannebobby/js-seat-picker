@@ -15,10 +15,10 @@
     <h1>Broadway Shows at the Roxy Theater</h1>
     <label for="broadway-show">Choose an Event</label>
     <select id="show">
-      <option value="100">Les Miserables (March 15-25)</option>
-      <option value="125">The Greatest Showman (May 5-10)</option>
-      <option value="75">Bye Bye Birdie (June 10-17)</option>
-      <option value="225">Hamilton (August 15-September 15)</option>
+      <option value="250">Les Miserables ($250)</option>
+      <option value="175">The Greatest Showman ($175)</option>
+      <option value="100">Bye Bye Birdie ($100)</option>
+      <option value="350">Hamilton ($350)</option>
     </select>
   </div>
 
@@ -36,11 +36,11 @@
   <ul class='showcase ticket-band'>
     <li>
       <div class="seat front"></div>
-      <small>Supporter ($250)</small>
+      <small>Premium</small>
     </li>
     <li>
       <div class="seat center"></div>
-      <small>Premium ($175)</small>
+      <small>Silver</small>
     </li>
     <li>
       <div class="seat ends"></div>
@@ -53,74 +53,74 @@
   <div class="container">
     <div class="stage"></div>
     <div class="row">
-      <div class="seat front occupied"></div>
-      <div class="seat front"></div>
-      <div class="seat front"></div>
-      <div class="seat front occupied"></div>
-      <div class="seat front occupied"></div>
-      <div class="seat front"></div>
-      <div class="seat front"></div>
-      <div class="seat front"></div>
+      <div id='premium' data-value='250' class="seat front occupied" value="150"></div>
+      <div id='premium' data-value='250' class="seat front" value="150"></div>
+      <div id='premium' data-value='250' class="seat front"></div>
+      <div id='premium' data-value='250' class="seat front occupied"></div>
+      <div id='premium' data-value='250' class="seat front occupied"></div>
+      <div id='premium' data-value='250' class="seat front"></div>
+      <div id='premium' data-value='250' class="seat front"></div>
+      <div id='premium' data-value='250' class="seat front"></div>
     </div>
 
     <div class="row">
-      <div class="seat front"></div>
-      <div class="seat front"></div>
-      <div class="seat front"></div>
-      <div class="seat front"></div>
-      <div class="seat front"></div>
-      <div class="seat front"></div>
-      <div class="seat front occupied"></div>
-      <div class="seat front occupied"></div>
+      <div id='premium' class="seat front" data-value='250'></div>
+      <div id='premium' class="seat front" data-value='250'></div>
+      <div id='premium' class="seat front" data-value='250'></div>
+      <div id='premium' class="seat front" data-value='250'></div>
+      <div id='premium' class="seat front" data-value='250'></div>
+      <div id='premium' class="seat front" data-value='250'></div>
+      <div id='premium' class="seat front occupied" data-value='250'></div>
+      <div id='premium' class="seat front occupied" data-value='250'></div>
     </div>
 
     <div class="row">
-      <div class="seat ends"></div>
-      <div class="seat ends"></div>
-      <div class="seat center"></div>
-      <div class="seat center"></div>
-      <div class="seat center"></div>
-      <div class="seat center"></div>
-      <div class="seat ends"></div>
-      <div class="seat ends"></div>
+      <div id='seat' class="seat ends" data-value='125'></div>
+      <div id='seat' class="seat ends" data-value='125'></div>
+      <div id='seat' class="seat center" data-value='175'></div>
+      <div id='seat' class="seat center" data-value='175'></div>
+      <div id='seat' class="seat center" data-value='175'></div>
+      <div id='seat' class="seat center" data-value='175'></div>
+      <div id='seat' class="seat ends" data-value='125'></div>
+      <div id='seat' class="seat ends" data-value='125'></div>
     </div>
 
     <div class="row">
-      <div class="seat ends occupied"></div>
-      <div class="seat ends"></div>
-      <div class="seat center"></div>
-      <div class="seat center"></div>
-      <div class="seat center occupied"></div>
-      <div class="seat center occupied"></div>
-      <div class="seat ends"></div>
-      <div class="seat ends"></div>
+      <div id='seat' class="seat ends occupied" data-value='125'></div>
+      <div id='seat' class="seat ends" data-value='125'></div>
+      <div id='seat' class="seat center" data-value='175'></div>
+      <div id='seat' class="seat center" data-value='175'></div>
+      <div id='seat' class="seat center occupied" data-value='175'></div>
+      <div id='seat' class="seat center occupied" data-value='175'></div>
+      <div id='seat' class="seat ends" data-value='125'></div>
+      <div id='seat' class="seat ends" data-value='125'></div>
     </div>
 
     <div class="row">
-      <div class="seat ends"></div>
-      <div class="seat ends"></div>
-      <div class="seat center"></div>
-      <div class="seat center"></div>
-      <div class="seat center occupied"></div>
-      <div class="seat center occupied"></div>
-      <div class="seat ends"></div>
-      <div class="seat ends"></div>
+      <div id='seat' class="seat ends" data-value='125'></div>
+      <div id='seat' class="seat ends" data-value='125'></div>
+      <div id='seat' class="seat center" data-value='175'></div>
+      <div id='seat' class="seat center" data-value='175'></div>
+      <div id='seat' class="seat center occupied" data-value='175'></div>
+      <div id='seat' class="seat center occupied" data-value='175'></div>
+      <div id='seat' class="seat ends" data-value='125'></div>
+      <div id='seat' class="seat ends" data-value='125'></div>
     </div>
 
     <div class="row">
-      <div class="seat ends"></div>
-      <div class="seat ends"></div>
-      <div class="seat center occupied"></div>
-      <div class="seat center occupied"></div>
-      <div class="seat center"></div>
-      <div class="seat center"></div>
-      <div class="seat ends"></div>
-      <div class="seat ends"></div>
+      <div id='seat' class="seat ends" data-value='125'></div>
+      <div id='seat' class="seat ends" data-value='125'></div>
+      <div id='seat' class="seat center occupied" data-value='175'></div>
+      <div id='seat' class="seat center occupied" data-value='175'></div>
+      <div id='seat' class="seat center" data-value='175'></div>
+      <div id='seat' class="seat center" data-value='175'></div>
+      <div id='seat' class="seat ends" data-value='125'></div>
+      <div id='seat' class="seat ends" data-value='125'></div>
     </div>
   </div>
-
-  <p class="text">You have selected <span id="count">0</span> seats for the price of $<span id="total">0</span></p>
-
+  <div style="text-align: left;">
+    <p class="text">Selected Seat Count: <span id="count">0</span> | Total Price: <span id="total">0</span></p>
+  </div>
   <script src="script.js"></script>
 </body>
 

@@ -8,10 +8,6 @@ populateUI();
 
 let ticketPrice = +showSelect.value;
 
-const seatValue = document.querySelector('.seat');
-
-const ticketValue = seatValue.getAttribute('data-value');
-
 // save selected show index and price
 function setShowData(showIndex, showPrice) {
 	localStorage.setItem('selectedShowIndex', showIndex);
@@ -27,6 +23,7 @@ function updateSelectedCount() {
 	localStorage.setItem('selectedSeats', JSON.stringify(seatsIndex));
 
 	const selectedSeatsCount = selectedSeats.length;
+
 	count.innerText = selectedSeatsCount;
 	total.innerText = selectedSeatsCount * ticketPrice;
 }
@@ -42,7 +39,6 @@ function populateUI() {
 			}
 		});
 	}
-
 	const selectedShowIndex = localStorage.getItem('selectedShowIndex');
 	if (selectedShowIndex !== null && selectedShowIndex > -1) {
 		showSelect.selectedIndex = selectedShowIndex;

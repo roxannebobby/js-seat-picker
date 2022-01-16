@@ -43,21 +43,54 @@ h1 {
 	margin-bottom: 30px;
 }
 .seat {
-  background-color: #444451;
-  height: 12px;
+  height: 14px;
   width: 15px;
   margin: 3px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+	list-style: none;
+	margin: 1px 4px 0 0;
+}
+
+input.seat {
+	visibility: hidden;
+	}
+
+label.seat {
+	height: 14px;
+  width: 15px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+	margin-left: -10px;
+	margin-top: 5px;
 }
 
 .seat.selected {
-  background-color: #6feaf6;
+  background-color: #ffffff;
 }
 
-.seat.occupied {
-  background-color: #fff;
+.occupied {
+	background-color:rgba(46, 33, 33, 0.1)
 }
+.seat.occupied {
+  background-color:rgb(63, 62, 62)
+}
+
+.front {
+	background-color: rgb(243, 223, 42);
+	opacity: .9
+}
+
+.center {
+	background-color: rgb(29, 170, 29);
+	opacity: .9
+}
+
+.ends {
+	background-color: rgb(252, 179, 45);
+	opacity: .9
+}
+
 
 div.row:nth-child(3) {
 	margin-bottom: 18px;
@@ -67,7 +100,7 @@ div.row:nth-child(3) {
 	margin-right: 18px;
 }
 
-.seat:nth-last-of-type(2) {
+.seat:nth-last-of-type(1) {
 	margin-left: 18px;
 }
 
@@ -106,9 +139,9 @@ div.row:nth-child(3) {
 	margin-top: -10px;
 }
 
-
 .row {
 	display: flex;
+	margin-left: 40px;
 }
 
 p.text {
@@ -130,7 +163,6 @@ p.text span {
 	border-top-right-radius: 20px;
 
 }
-
 
 
 
